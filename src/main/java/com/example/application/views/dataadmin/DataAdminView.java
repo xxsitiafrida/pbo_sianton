@@ -36,7 +36,7 @@ import java.util.Optional;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.orm.ObjectOptimisticLockingFailureException;
 
-@PageTitle("Data Admin")
+@PageTitle("Data Administrator")
 @Route(value = "Data-Admin/:dataadminID?/:action?(edit)", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
 public class DataAdminView extends Div implements BeforeEnterObserver {
